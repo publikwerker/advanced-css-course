@@ -31,13 +31,22 @@
     animation: moveInBottom .5s ease-out .75s; animation-fill-mode: backwards;
   }
 
-  &--white {
-    background-color: $color-white;
-    color: $color-grey-dark;
+  &--green {
+    background-color: $color-primary-light;
+    color: $color-white;
 
     &::after {
-      background-color: $color-white;
+      background-color: $color-primary-light;
     }
+  }
+
+    &--white {
+      background-color: $color-white;
+      color: $color-grey-dark;
+  
+      &::after {
+        background-color: $color-white;
+      }
   }
 
   &::after {
